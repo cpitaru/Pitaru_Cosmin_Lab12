@@ -3,18 +3,76 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{31AE61B8-FEFC-4231-9273-95E37417F32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{31AE61B8-FEFC-4231-9273-95E37417F32B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitaru_Cosmin_Lab12_xamarin.Android", "Pitaru_Cosmin_Lab12_xamarin\Pitaru_Cosmin_Lab12_xamarin.Android\Pitaru_Cosmin_Lab12_xamarin.Android.csproj", "{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitaru_Cosmin_Lab12_xamarin.iOS", "Pitaru_Cosmin_Lab12_xamarin\Pitaru_Cosmin_Lab12_xamarin.iOS\Pitaru_Cosmin_Lab12_xamarin.iOS.csproj", "{122B744F-D235-4065-A3DA-D0828C15A8DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitaru_Cosmin_Lab12_xamarin", "Pitaru_Cosmin_Lab12_xamarin\Pitaru_Cosmin_Lab12_xamarin\Pitaru_Cosmin_Lab12_xamarin.csproj", "{1D6FC2BB-481E-469A-A64B-E548F158144E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
 		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Release|iPhone.Build.0 = Release|Any CPU
+		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{31AE61B8-FEFC-4231-9273-95E37417F32B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Release|iPhone.Build.0 = Release|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{9466F0A9-E1F9-42D7-834A-E8D6FB23A4B9}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Release|iPhone.Build.0 = Release|iPhone
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{122B744F-D235-4065-A3DA-D0828C15A8DB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Release|iPhone.Build.0 = Release|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{1D6FC2BB-481E-469A-A64B-E548F158144E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
